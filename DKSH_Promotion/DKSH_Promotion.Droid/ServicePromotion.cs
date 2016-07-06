@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -62,8 +62,8 @@ namespace DKSH_Promotion.Droid
 
             _timer.Dispose();
             _timer = null;
-     
-           // Log.Debug(TAG, "SimpleService destroyed at {0}.", DateTime.UtcNow);
+
+            // Log.Debug(TAG, "SimpleService destroyed at {0}.", DateTime.UtcNow);
         }
     }
 }

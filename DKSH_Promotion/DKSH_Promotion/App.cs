@@ -13,6 +13,7 @@ namespace DKSH_Promotion
         {
             // The root page of your application
             MainPage = new CategoryPage();
+
         }
 
         protected override void OnStart()
@@ -29,5 +30,6 @@ namespace DKSH_Promotion
         {
             // Handle when your app resumes
         }
+
     }
 }

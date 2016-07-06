@@ -4,7 +4,7 @@ using DKSH_Promotion.Database;
 using DKSH_Promotion.Objects;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-
+using Refractored.XamForms.PullToRefresh;
 
 namespace DKSH_Promotion
 {
@@ -15,7 +15,7 @@ namespace DKSH_Promotion
         private ListView _recordList;
         private DPDatabase database;
         private string query;
-
+       
 
         protected override void OnBindingContextChanged()
         {
@@ -31,7 +31,7 @@ namespace DKSH_Promotion
 
 
         }
-
+  
         public DetailPage(DPDatabase databaseInput)
         {
 
@@ -51,25 +51,27 @@ namespace DKSH_Promotion
                 textCell.TextColor = Color.Navy;
                 return textCell;
             });
+
+
             _recordList.ItemTemplate.SetBinding(TextCell.TextProperty, "Subject");
             _recordList.ItemTemplate.SetBinding(TextCell.DetailProperty, "Content");
+
             _recordList.IsPullToRefreshEnabled = true;
             _recordList.IsRefreshing = IsBusy;
-            _recordList.RefreshCommand = new Command(() =>
+            _recordList.RefreshCommand = new Command(() => 
             {
-                //database.refresh();
                 records = database.getRecordsByCategory(query);
                 _recordList.ItemsSource = records;
 
                 App app = Application.Current as App;
                 CategoryPage md = (CategoryPage)app.MainPage;
                 md.updateMaster();
-
+                
 
                 _recordList.IsRefreshing = false;
             });
 
-
+            
 
             // Build the page.
             this.Content = new StackLayout

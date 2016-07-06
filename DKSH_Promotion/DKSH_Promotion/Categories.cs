@@ -9,12 +9,14 @@ namespace DKSH_Promotion
         public Categories(string name)
         {
             this.Name = name;
-         
+            this.Color = Color.White;
         }
 
         public string Name { private set; get; }
-
-        public Color Color { private set; get; }
+        public Color Color
+        {
+            private set;get;
+        }
 
         public override string ToString()
         {

@@ -2,9 +2,6 @@
 
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
 using Android.Content;
 
@@ -19,9 +16,8 @@ namespace DKSH_Promotion.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
-            this.ActionBar.SetIcon(Android.Resource.Color.Transparent);
+            //this.ActionBar.SetIcon(Android.Resource.Color.Transparent);
             StartService(new Intent(this, typeof(ServicePromotion)));
         }
     }
 }
-
