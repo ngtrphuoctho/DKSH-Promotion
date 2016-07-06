@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\SQLitePCLPlugin_esqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>
