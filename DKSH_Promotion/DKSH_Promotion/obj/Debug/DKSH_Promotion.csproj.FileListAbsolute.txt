@@ -24,3 +24,9 @@ D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion\obj\Debug\DKSH_Promotio
 D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion\bin\Debug\DKSH_Promotion.dll.mdb
 D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion\obj\Debug\DKSH_Promotion.dll.mdb
 D:\MobieApp\DKSH_Promotion\DKSH_Promotion\DKSH_Promotion\bin\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\obj\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\bin\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\obj\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\bin\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\obj\Debug\DKSH_Promotion.dll.mdb
+D:\Repos\DKSH-Promotion\DKSH_Promotion\DKSH_Promotion\bin\Debug\DKSH_Promotion.dll.mdb

@@ -20,7 +20,7 @@ namespace DKSH_Promotion.Droid
     class ServicePromotion : Service
     {
 
-        //static readonly string TAG = "X:" + typeof(ServicePromotion).Name;
+        static readonly string TAG = "X:" + typeof(ServicePromotion).Name;
         static readonly int TimerWait = 3000;
         //private static int BtnClickNotification = 1000;
         Timer _timer;
@@ -31,7 +31,7 @@ namespace DKSH_Promotion.Droid
             Task.Run(() => {
                 _timer = new Timer(async o =>
                 {
-                    //Log.Debug(TAG, "Hello from SimpleService. {0}", DateTime.UtcNow);
+                    Log.Debug(TAG, "Hello from SimpleService. {0}", DateTime.UtcNow);
                     bool update = await api.insertDataFromAPI();
                     if (update) { }
                 },
