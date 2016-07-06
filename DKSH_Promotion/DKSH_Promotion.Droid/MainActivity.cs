@@ -20,7 +20,7 @@ namespace DKSH_Promotion.Droid
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
             this.ActionBar.SetIcon(Android.Resource.Color.Transparent);
-            StartService(new Intent(this, typeof(ServicePromotion)));
+            //StartService(new Intent(this, typeof(ServicePromotion)));
         }
     }
 }
